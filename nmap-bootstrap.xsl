@@ -136,9 +136,9 @@ Andreas Hontzia (@honze_net) & LRVT (@l4rm4nd)
                 <li><a href="#webservices">Web Services</a></li>
                 <li><a href="#onlinehosts">Online Hosts</a></li>
                 <li><a href="#" style="pointer-events: none; cursor: default;">|</a></li>
-                <li><a href="https://www.pentestfactory.de/schwachstellendatenbank/" target="_blank" title="Vulnerability Database by Pentest Factory"><span class="glyphicon glyphicon-new-window " style="color: #f7a90a;"></span> CVEs</a></li>
-                <li><a href="https://www.ssllabs.com/ssltest/" target="_blank" title="SSL Server Test by Qualys"><span class="glyphicon glyphicon-new-window" style="color: #de1d0b;"></span> SSL/TLS</a></li>
-                <li><a href="https://securityheaders.com/" target="_blank" title="HTTP Header Test by Scott Helme"><span class="glyphicon glyphicon-new-window" style="color: #3a71d8;"></span> Headers</a></li>
+<!--                 <li><a href="https://www.pentestfactory.de/schwachstellendatenbank/" target="_blank" title="Vulnerability Database by Pentest Factory"><span class="glyphicon glyphicon-new-window " style="color: #f7a90a;"></span> CVEs</a></li> -->
+<!--                 <li><a href="https://www.ssllabs.com/ssltest/" target="_blank" title="SSL Server Test by Qualys"><span class="glyphicon glyphicon-new-window" style="color: #de1d0b;"></span> SSL/TLS</a></li> -->
+<!--                 <li><a href="https://securityheaders.com/" target="_blank" title="HTTP Header Test by Scott Helme"><span class="glyphicon glyphicon-new-window" style="color: #3a71d8;"></span> Headers</a></li> -->
               </ul>
             </div>
           </div>
