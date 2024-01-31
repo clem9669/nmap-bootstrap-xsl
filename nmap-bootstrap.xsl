@@ -173,9 +173,9 @@ Andreas Hontzia (@honze_net) & LRVT (@l4rm4nd) & Haxxnet & clem9669
                     <button title="Keyword highlighing in 'Open Services'" id="highlight-button" onclick="highlight()">Highlight Keywords</button>
                     <button title="Reset keyword highlighing" id="reset-highlight-button" onclick="document.location.reload(true);">Reset</button>
                 </div>
-                <div style="margin-top: 25px" id="credits">
+<!--                 <div style="margin-top: 25px" id="credits">
                   <div><span class="glyphicon glyphicon-heart" style="color: #de1d0b;padding-right: 5px"></span><a href="https://github.com/Haxxnet/nmap-bootstrap-xsl">Nmap Bootstrap XSL</a> by <a href="https://github.com/l4rm4nd">LRVT</a></div>
-                </div>
+                </div> -->
             </div>
           </div>
           <h2 id="scannedhosts" class="target">Scanned Hosts<xsl:if test="/nmaprun/runstats/hosts/@down > 1024"><small> (offline hosts are hidden)</small></xsl:if></h2>
