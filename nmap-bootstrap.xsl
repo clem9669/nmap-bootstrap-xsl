@@ -10,6 +10,7 @@ Andreas Hontzia (@honze_net) & LRVT (@l4rm4nd) & Haxxnet & clem9669
       <head>
         <meta name="referrer" content="no-referrer"/>
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
         <link rel="stylesheet" href="css/buttons.dataTables.min.css"/>
         <link rel="stylesheet" href="css/dataTables.bootstrap.min.css" type="text/css"/>
 
