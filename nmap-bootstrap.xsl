@@ -9,22 +9,22 @@ Andreas Hontzia (@honze_net) & LRVT (@l4rm4nd) & Haxxnet & clem9669
     <html lang="en">
       <head>
         <meta name="referrer" content="no-referrer"/>
-        <link rel="stylesheet" href="assets/bootstrap.min.css"/>
-        <link rel="stylesheet" href="assets/buttons.dataTables.min.css"/>
-        <link rel="stylesheet" href="assets/dataTables.bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/buttons.dataTables.min.css"/>
+        <link rel="stylesheet" href="css/dataTables.bootstrap.min.css" type="text/css"/>
 
-        <script src="assets/jquery-3.3.1.js"></script>
-        <script src="assets/jquery.dataTables.min.js"></script>
-        <script src="assets/jszip.min.js"></script>
-        <script src="assets/pdfmake.min.js"></script>
-        <script src="assets/vfs_fonts.js"></script>
-        <script src="assets/dataTables.buttons.min.js"></script>
-        <script src="assets/buttons.html5.min.js"></script>
-        <script src="assets/buttons.colVis.min.js"></script>
-        <script src="assets/buttons.bootstrap.min.js"></script>
-        <script src="assets/dataTables.bootstrap.min.js"></script>
-        <script src="assets/bootstrap.min.js"></script>
-        <script src="assets/ip-address.js"></script>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/jquery.dataTables.min.js"></script>
+        <script src="js/jszip.min.js"></script>
+        <script src="js/pdfmake.min.js"></script>
+        <script src="js/vfs_fonts.js"></script>
+        <script src="js/dataTables.buttons.min.js"></script>
+        <script src="js/buttons.html5.min.js"></script>
+        <script src="js/buttons.colVis.min.js"></script>
+        <script src="js/buttons.bootstrap.min.js"></script>
+        <script src="js/dataTables.bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/ip-address.js"></script>
         <style>
 
           .target:before {
