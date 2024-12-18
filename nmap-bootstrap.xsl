@@ -25,6 +25,7 @@ Andreas Hontzia (@honze_net) & LRVT (@l4rm4nd) & Haxxnet & clem9669
         <script src="https://cdn.datatables.net/buttons/2.0.1/js/buttons.bootstrap.min.js" integrity="sha384-Ndtz/aMKkdc9b0uTCirKXA6kJ8QfBTv73Ph9sv0wOiqK7NENdLN+qTpPX5skuhiM" crossorigin="anonymous"></script>
         <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js" integrity="sha384-7PXRkl4YJnEpP8uU4ev9652TTZSxrqC8uOpcV1ftVEC7LVyLZqqDUAaq+Y+lGgr9" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/plug-ins/2.1.0/sorting/ip-address.js" integrity="sha384-pbrITLqgA4lSZJgcYMK/c5hfUpOg+2vjjMQPdRv4hPEoBFYVWEuF1H3faZskzO9a" crossorigin="anonymous"></script>
         <style>
 
           .target:before {
@@ -465,6 +466,7 @@ Andreas Hontzia (@honze_net) & LRVT (@l4rm4nd) & Haxxnet & clem9669
             </p>
           </div>
         </footer>
+
         <script>
           $(document).ready(function() {
             $('#table-services').DataTable();
@@ -478,6 +480,7 @@ Andreas Hontzia (@honze_net) & LRVT (@l4rm4nd) & Haxxnet & clem9669
             "order": [[ 0, 'desc' ]],
             "columnDefs": [
               { "targets": [0], "orderable": true },
+              { "targets": [1], "type": "ip-address" },
             ],
             dom:'lBfrtip', 
             stateSave: true,
@@ -508,7 +511,7 @@ Andreas Hontzia (@honze_net) & LRVT (@l4rm4nd) & Haxxnet & clem9669
             ],
           });
         </script>
-        <script>
+        <script>      
           $(document).ready(function() {
             $('#web-services').DataTable();
           });
@@ -517,6 +520,7 @@ Andreas Hontzia (@honze_net) & LRVT (@l4rm4nd) & Haxxnet & clem9669
             "order": [[ 0, 'desc' ]],
             "columnDefs": [
               { "targets": [0], "orderable": true },
+              { "targets": [1], "type": "ip-address" },
             ],
             dom:'lBfrtip', 
             stateSave: true,
@@ -546,13 +550,16 @@ Andreas Hontzia (@honze_net) & LRVT (@l4rm4nd) & Haxxnet & clem9669
                 }
             ],
           });
-        </script>
+        </script>      
         <script>
           $(document).ready(function() {
             $('#table-overview').DataTable();
           });
           $('#table-overview').DataTable( {
             "lengthMenu": [ [5, 10, 25, 50, 100, -1], [5, 10, 25, 50, 100, "All"] ],
+            "columnDefs": [
+              { "targets": [1], "type": "ip-address" },
+            ],
           });
         </script>
       </body>
